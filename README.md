@@ -10,3 +10,6 @@ For re-ranking:
 ```
 python rerank.py  --model bert --datafiles path/to/queries path/to/docs  --run path/to/initial_ranking/run --model_weights path/to/the/saved/model --out_path path/for/the/output/run --test_qrels path/to/test_qrels
 ```
+
+
+This implementation is based on [CEDR](https://github.com/Georgetown-IR-Lab/cedr)
